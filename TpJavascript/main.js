@@ -20,7 +20,7 @@ const questions = [
     {
         question: "Que signifie DOM ?",
         answers: ["Document Object Model", "Data Object Model", "Design Object Model"],
-        correct: 0
+        correct: 1
     },
     {
       question: "Quel manga est le plus vendu",
