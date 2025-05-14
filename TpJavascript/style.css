@@ -1,0 +1,124 @@
+/* Général */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff5f0;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Titre principal */
+h1 {
+  font-size: 48px;
+  margin-top: 40px;
+  color: #f86e51;
+  font-weight: bold;
+}
+
+/* Sous-titre */
+h2 {
+  font-size: 24px;
+  margin-top: 10px;
+  color: #f86e51;
+}
+
+/* Section principale */
+#quiz-container, #start-screen, #result-screen {
+  background-color: #f78c57;
+  margin: 50px auto;
+  padding: 40px 30px;
+  border-radius: 25px;
+  max-width: 700px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Question */
+#question-text {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+/* Réponses */
+.answer-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  font-size: 18px;
+  border: none;
+  border-radius: 15px;
+  background-color: #fff;
+  color: #f86e51;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.answer-btn:hover {
+  background-color: #ffe2d5;
+}
+
+/* Boutons */
+button {
+  background-color: #ffffff;
+  color: #f86e51;
+  border: none;
+  padding: 12px 25px;
+  font-size: 18px;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #ffe2d5;
+}
+
+/* Score final */
+#score-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 20px;
+}
+
+/* Responsif */
+@media (max-width: 600px) {
+  #quiz-container, #start-screen, #result-screen {
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .answer-btn {
+    font-size: 16px;
+  }
+
+  button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}
+
+/* Barre de progression */
+#progress-bar-container {
+  width: 100%;
+  background-color: #ffd5c2;
+  border-radius: 12px;
+  height: 20px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+#progress-bar {
+  height: 100%;
+  width: 0%;
+  background-color: #ffffff;
+  border-radius: 12px;
+  transition: width 0.3s ease;
+}
+
+  
