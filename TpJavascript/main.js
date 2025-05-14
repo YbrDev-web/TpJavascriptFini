@@ -77,21 +77,6 @@ function showQuestion() {
 
   updateProgressBar();
 }
-
-  
-  const nextBtn = document.getElementById("next-btn");
-  const submitBtn = document.getElementById("submit-btn");
-
-  if (currentQuestion < questions.length -1){
-    nextBtn.style.display = "inline-block";
-    submitBtn.style.display = "none";  
-  }else{
-    nextBtn.style.display = "none";
-    submitBtn.style.display = "inline-block";
-  }
-  
-
-
   document.getElementById("next-btn").addEventListener("click", () => {
     currentQuestion++;
     if (currentQuestion < questions.length){
